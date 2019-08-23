@@ -1,0 +1,1 @@
+﻿insert into Usuarios(cuenta,nip,saldo,nombre,tipo) values('0123456789012345','1234',0,'Enrique','U')
