@@ -39,7 +39,7 @@ public class Login extends javax.swing.JFrame {
     public void Acceder() {
         try {
             if (txtCuenta.getText().equals("") || txtNIP.getText().equals("")) {
-                JOptionPane.showMessageDialog(null, "<html><h2>Campos Incompletos</h2></html>",
+                JOptionPane.showMessageDialog(null, "<html><h2>Campos Incompletosssss</h2></html>",
                         "Banco - BBVA", JOptionPane.INFORMATION_MESSAGE, icon);
             } else {
                 Statement stm = new Conexion().Conexion().createStatement();

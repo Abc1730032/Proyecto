@@ -17,7 +17,7 @@ public class Conexion {
         Connection conexion = null;
         try {
             Class.forName("org.postgresql.Driver");
-            conexion = DriverManager.getConnection("jdbc:postgresql://172.16.0.11:5432/Banco","user1","123456");
+            conexion = DriverManager.getConnection("jdbc:postgresql://172.16.0.20:5432/Banco","user1","123456");
         } catch (Exception ex) {
             System.out.println(ex);
         }
