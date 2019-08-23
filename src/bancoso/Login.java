@@ -35,7 +35,7 @@ public class Login extends javax.swing.JFrame {
         txtCuenta.requestFocus(true);
         this.setTitle("Banco - BBVA");
     }
-
+    //Metodo de Acceso
     public void Acceder() {
         try {
             if (txtCuenta.getText().equals("") || txtNIP.getText().equals("")) {
