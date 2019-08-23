@@ -297,7 +297,7 @@ public class Cuenta extends javax.swing.JFrame {
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
         try {
             if (txtNombre.equals("") || txtCuenta.equals("") || txtNIP.equals("")) {
-                JOptionPane.showMessageDialog(null, "<html><h2>Campos Incompletos</h2></html>",
+                JOptionPane.showMessageDialog(null, "<html><h2>Campos Incompletoss</h2></html>",
                         "Banco - BBVA", JOptionPane.INFORMATION_MESSAGE, icon);
             } else {
                 Statement stm = new Conexion().Conexion().createStatement();
